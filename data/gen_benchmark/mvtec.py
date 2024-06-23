@@ -13,7 +13,7 @@ class MVTecSolver(object):
         'foam', 'peach', 'potato', 'rope', 'tire',
     ]
 
-    def __init__(self, root='content/gdrive/My Drive/PiLab/RealNet/mvtec', is2D=True):
+    def __init__(self, root='content/gdrive/MyDrive/PiLab/RealNet/mvtec', is2D=True):
         self.root = root
         self.is2D = is2D
         self.meta_path = f'{root}/meta.json'
@@ -54,7 +54,7 @@ class MVTecSolver(object):
 
 
 if __name__ == '__main__':
-    runner = MVTecSolver(root='content/gdrive/My Drive/PiLab/RealNet/mvtec', is2D=True)
+    runner = MVTecSolver(root='content/gdrive/MyDrive/PiLab/RealNet/mvtec', is2D=True)
     runner.run()
     # runner = MVTecSolver(root='data/mvtec3d', is2D=False)
     # runner.run()
